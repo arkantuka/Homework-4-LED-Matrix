@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -139,7 +137,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int value = 99;
+  int value = 0;
 
   @override
   Widget build(BuildContext context) {
