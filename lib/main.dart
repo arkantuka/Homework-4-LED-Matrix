@@ -215,7 +215,7 @@ class _HomePageState extends State<HomePage> {
       onTap: () {
         setState(
           () {
-            num == -1 ? value = value + 1 : value = value - 1;
+            value = num == -1 ? value + 1 : value - 1;
             if (value > 99) value = 0;
             if (value < 0) value = 99;
           },
